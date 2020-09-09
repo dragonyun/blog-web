@@ -1,6 +1,34 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
 }
+
+.header {
+  background-color: #8aa292;
+  text-align: center;
+  line-height: 8vh;
+  min-height: 8vh;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 15%);
+}
+
+.left {
+  background-color: aquamarine;
+  text-align: center;
+  line-height: 80vh;
+}
+
+.right {
+  background-color: cadetblue;
+  text-align: center;
+  line-height: 80vh;
+}
+
 
 .App-logo {
   height: 40vmin;
