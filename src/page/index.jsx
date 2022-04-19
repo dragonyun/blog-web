@@ -4,7 +4,7 @@ import { Button } from 'antd';
 class Page extends Component {
 
     handleClick = () => {
-        console.log('123')
+        console.log('123456')
         const canvas = document.getElementById('tutorial');
         if(!canvas.getContext) return;
         //获得 2d 上下文对象
